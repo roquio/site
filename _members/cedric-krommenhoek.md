@@ -1,5 +1,9 @@
 ---
 title: Cédric Krommenhoek
+picture: /assets/img/cedric-krommenhoek.png
 ---
 
-##### Cédric Krommenhoek
+
+
+{: .card-text}
+Contenu
