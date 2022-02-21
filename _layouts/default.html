@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: " fr_FR" }}">
+<html lang="fr">
+
 {% include head.html %}
+
 <body>
+{% include navbar.html %}
+
 <div class="container py-5">
-    {{ content }}
+    <div class="row justify-content-center">
+        <div class="col-lg-9 col-xl-8">
+            {% include toc.html %}
+
+            {{ content }}
+        </div>
+    </div>
 </div>
 </body>
+
 </html>

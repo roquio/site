@@ -1,0 +1,11 @@
+<div class="row row-cols-1 row-cols-md-2 my-5">
+    {% for member in site.members %}
+    <div class="col">
+        <div class="card text-white bg-secondary mb-3">
+            <div class="card-body">
+                {{ member.content | markdownify }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

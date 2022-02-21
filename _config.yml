@@ -6,13 +6,28 @@ description:
 lang: "fr_FR"
 email: "contact@roqu.io"
 
+collections:
+  members:
+    sort_by: title
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-toc
+
 
 sass:
-#  sass_dir: _sass
+  sass_dir: _sass
   style: compressed
+
+
+toc:
+  min_level: 2
+  list_class: ""
+  sublist_class: ""
+  item_class: ""
+  title: Table des matières
 
 
 # Exclude from processing.
@@ -30,8 +45,3 @@ exclude:
    - Gemfile.lock
    - LICENSE
    - README.md
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

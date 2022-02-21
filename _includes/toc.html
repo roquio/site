@@ -1,0 +1,10 @@
+{% if page.toc %}
+<div class="card bg-dark mb-5">
+    <div class="card-body">
+        <h5 class="card-title">
+            {{ site.toc.title }}
+        </h5>
+        {{ content | toc_only }}
+    </div>
+</div>
+{% endif %}

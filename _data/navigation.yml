@@ -1,0 +1,12 @@
+pages:
+  - title: Accueil
+    order: 1
+    url: /
+
+  - title: Mentions légales
+    order: 2
+    url: /mentions-legales.html
+
+  - title: Contact
+    order: 3
+    url: /contact.html

@@ -1,0 +1,26 @@
+.navbar {
+  &.navbar-expand {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+      $next: breakpoint-next($breakpoint, $grid-breakpoints);
+      $infix: breakpoint-infix($next, $grid-breakpoints);
+
+      // stylelint-disable-next-line scss/selector-no-union-class-name
+      &#{$infix} {
+        @include media-breakpoint-up($next) {
+          button[data-bs-toggle="collapse"] {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    img {
+      height: 50px;
+    }
+  }
+}
