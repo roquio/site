@@ -1,7 +1,18 @@
 @import "../bootstrap/bootstrap/functions";
 
+$enable-shadows: true;
 
 $blue: #4baeec;
+
+$card-background-1: #6e280d;
+$card-background-2: #026e5c;
+$card-background-3: #2371a1;
+$card-background-4: #ba5329;
+$card-background-5: #445e6e;
+
+$card-border-1: $blue;
+$card-border-2: #ff8352;
+$card-border-3: #29baa2;
 
 
 @import "../bootstrap/bootstrap/variables";
