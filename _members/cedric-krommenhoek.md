@@ -1,9 +1,9 @@
 ---
-title: Cédric Krommenhoek
-picture: /assets/img/cedric-krommenhoek.png
+firstName: Cédric
+lastName: Krommenhoek
+#picture: /assets/img/cedric-krommenhoek.png
 ---
 
 
 
-{: .card-text}
 Contenu

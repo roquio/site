@@ -1,0 +1,17 @@
+<div class="solutions">
+    <div class="card bg-light text-dark">
+        <div class="card-body">
+            <ul class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 list-unstyled gx-5 gy-3 mb-0">
+                {% for solution in site.solutions %}
+                <li class="col">
+                    <div class="ratio ratio-16x9">
+                        <a href="{{ solution.external_url }}" target="_blank">
+                            <img src="{{ solution.picture }}" alt="{{ solution.title }}">
+                        </a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

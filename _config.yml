@@ -9,7 +9,7 @@ email: "contact@roqu.io"
 
 collections:
   members:
-    sort_by: title
+    sort_by: lastName
   cards:
     sort_by: order
 

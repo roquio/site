@@ -1,4 +1,5 @@
 ---
-title: Loïc Billon
-picture: /assets/img/loic-billon.png
+firstName: Loïc
+lastName: Billon
+#picture: /assets/img/loic-billon.png
 ---
