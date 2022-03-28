@@ -38,6 +38,8 @@ Et aussi : *OnlyOffice*, *CAS*, protocole OAuth, etc.
 
 L'infrastructure n'est pas en reste avec *Docker*.
 
+{% include solutions.html %}
+
 ---
 
 ## Qui sommes-nous ?

@@ -12,6 +12,8 @@ collections:
     sort_by: lastName
   cards:
     sort_by: order
+  solutions:
+    sort_by: order
 
 
 plugins:
