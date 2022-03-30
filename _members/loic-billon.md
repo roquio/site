@@ -2,6 +2,7 @@
 firstName: Loïc
 lastName: Billon
 #picture: /assets/img/loic-billon.png
+color: green
 ---
 
 Architecte solutions open source, 15 ans d'expériences

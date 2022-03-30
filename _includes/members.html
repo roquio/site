@@ -1,12 +1,12 @@
-<div class="row row-cols-1 row-cols-sm-2 my-5">
+<div class="row row-cols-1 row-cols-sm-2 my-3">
     {% for member in site.members %}
-    <div class="col">
-        <div class="card text-white bg-secondary mb-3">
+    <div class="col mb-3">
+        <div class="card card-{{ member.color }} text-white h-100">
             {% if member.picture %}
             <img src="{{ member.picture }}" alt="" class="card-img-top">
             {% endif %}
             <div class="card-body">
-                <h3 class="h4 card-title">{{ member.firstName }} {{ member.lastName }}</h3>
+                <h3 class="h4 card-title mb-3">{{ member.firstName }} {{ member.lastName }}</h3>
 
                 {{ member.content | markdownify }}
             </div>

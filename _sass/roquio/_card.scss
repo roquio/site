@@ -1,0 +1,13 @@
+.card-body {
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-green {
+  background-color: $card-background-2;
+}
+
+.card-blue {
+  background-color: $card-background-3;
+}

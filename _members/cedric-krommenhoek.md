@@ -2,6 +2,7 @@
 firstName: Cédric
 lastName: Krommenhoek
 #picture: /assets/img/cedric-krommenhoek.png
+color: blue
 ---
 
 Architecte logiciel, 12 ans d'expériences

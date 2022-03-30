@@ -30,7 +30,7 @@ Que ce soit pour stocker, hiérarchiser, référencer l'information et définir 
 
 Nous préconisation l'APIfication pour interagir avec les briques de l'écosystème, des webservices *SprintBoot* documentés avec *Swagger*.
 
-L'expérience utilisateur est full web autour des derniers standards responsives comme *Bootstrap*, *Less CSS * / *Sass* et *jQuery*.
+L'expérience utilisateur est full web autour des derniers standards responsives comme *Bootstrap*, *Less CSS* / *Sass* et *jQuery*.
 
 Nous nous appuyons sur des outils de persistance éprouvés (*PostgreSQL*, annuaires LDAP) couplés avec des outils de recherche puissants comme *ElasticSearch*.
 
