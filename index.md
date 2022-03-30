@@ -16,9 +16,9 @@ layout: default
 
 Nous soutenons et contribuons aux logiciels de la communauté open-source.
 
-* Portail OSIVIA ([www.osivia.org](http://www.osivia.org))
+* Portail OSIVIA ([www.osivia.org](http://www.osivia.org){:target="_blank"})
 
-* Nuxeo ([www.nuxeo.com](https://www.nuxeo.com))
+* Nuxeo ([www.nuxeo.com](https://www.nuxeo.com){:target="_blank"})
 
 * OpenToutatice
 
@@ -30,11 +30,11 @@ Que ce soit pour stocker, hiérarchiser, référencer l'information et définir 
 
 Nous préconisation l'APIfication pour interagir avec les briques de l'écosystème, des webservices *SprintBoot* documentés avec *Swagger*.
 
-L'expérience utilisateur est full web autour des derniers standards responsive comme *Bootstrap*, *SassCSS* / *Less* et *jQuery*.
+L'expérience utilisateur est full web autour des derniers standards responsives comme *Bootstrap*, *Less CSS * / *Sass* et *jQuery*.
 
 Nous nous appuyons sur des outils de persistance éprouvés (*PostgreSQL*, annuaires LDAP) couplés avec des outils de recherche puissants comme *ElasticSearch*.
 
-Et aussi : *OnlyOffice*, *CAS*, protocole OAuth, etc.
+Et aussi : *OnlyOffice*, *CAS*, protocole OAuth, etc.
 
 L'infrastructure n'est pas en reste avec *Docker*.
 
