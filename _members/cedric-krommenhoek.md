@@ -4,11 +4,12 @@ lastName: Krommenhoek
 #picture: /assets/img/cedric-krommenhoek.png
 ---
 
-{: .card-text }
-Architecte logiciel
+Architecte logiciel, 12 ans d'expériences
 
-{: .card-text }
-Expert des solutions techniques Java, notamment basées sur le framework Spring
+Libriste convaincu
 
-{: .card-text }
-Expert du portail OSIVIA, de son conteneur de portlets et de sa GED Nuxeo
+Développeur expert en solutions techniques Java, notamment basées sur le framework Spring 
+
+Très (trop ?) sensible sur la qualité du code, la maintenabilité, les performances, l'ergonomie et l'accessibilité
+
+Allergique aux langages non typés et au XML
